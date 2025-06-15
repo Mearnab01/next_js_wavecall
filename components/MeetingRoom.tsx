@@ -72,8 +72,8 @@ const MeetingRoom = () => {
         </div>
       </div>
 
-      <div className="fixed bottom-0 w-full bg-[#12171e]/80 backdrop-blur-md flex flex-col items-center gap-3 py-4">
-        <div className="flex flex-wrap items-center justify-center gap-4 px-4 py-3 md:justify-between">
+      <div className="fixed bottom-0 w-full bg-transparent backdrop-blur-md flex flex-col items-center gap-3 py-4">
+        <div className="flex flex-wrap items-center justify-center gap-4 px-4 md:justify-between">
           <CallControls onLeave={() => router.push(`/`)} />
 
           <DropdownMenu>

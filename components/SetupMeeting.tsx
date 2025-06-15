@@ -32,7 +32,7 @@ const SetupMeeting = ({
     <div className="flex flex-col items-center justify-center h-screen w-full px-4 text-white gap-6 bg-gradient-to-br from-gray-900 to-black">
       <h1 className="text-3xl font-bold tracking-tight">Setup Your Call</h1>
 
-      <div className="rounded-xl border border-[#9a6efe40] shadow-xl">
+      <div className="rounded-xl overflow-hidden border border-[#9a6efe40] shadow-xl">
         <VideoPreview className="rounded-md w-full h-full object-cover border-2 border-[#9a6efe]" />
       </div>
 
